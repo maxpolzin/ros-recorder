@@ -1,39 +1,44 @@
-/imu/data:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
-
-/terrain_estimation_node/slope_estimate_mean:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
-
-/terrain_estimation_node/slope_estimate_var:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
-
-/terrain_estimation_node/can_robot_roll:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
-
-/navsatfix:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
-
-/tendon_length_node_1/tendon_length:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
-
-/tendon_length_node_2/tendon_length:
+/zed/zed_node/imu/data:
   reliability: best_effort
   history: keep_last
   depth: 1
 
 /ina220/data:
+  reliability: best_effort
+  history: keep_last
+  depth: 1
+
+/turn_counter_node/turn_count:
+  reliability: best_effort
+  history: keep_last
+  depth: 1
+
+/livox/lidar:
+  reliability: best_effort
+  history: keep_last
+  depth: 1
+
+/zed/zed_node/depth/depth_registered:
+  reliability: best_effort
+  history: keep_last
+  depth: 1
+
+/zed/zed_node/left_raw/image_raw_color:
+  reliability: best_effort
+  history: keep_last
+  depth: 1
+
+/zed/zed_node/left_raw/image_raw_color/compressed:
+  reliability: best_effort
+  history: keep_last
+  depth: 1
+
+/zed/zed_node/right_raw/image_raw_color:
+  reliability: best_effort
+  history: keep_last
+  depth: 1
+
+/zed/zed_node/right_raw/image_raw_color/compressed:
   reliability: best_effort
   history: keep_last
   depth: 1
