@@ -1,44 +1,49 @@
 /zed/zed_node/imu/data:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
-
-/ina220/data:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
 
 /turn_counter_node/turn_count:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
 
 /livox/lidar:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
 
 /zed/zed_node/depth/depth_registered:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
 
 /zed/zed_node/left_raw/image_raw_color:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
 
 /zed/zed_node/left_raw/image_raw_color/compressed:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
 
 /zed/zed_node/right_raw/image_raw_color:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
 
 /zed/zed_node/right_raw/image_raw_color/compressed:
-  reliability: best_effort
-  history: keep_last
-  depth: 1
+  reliability: reliable
+  history: keep_all
+  depth: 3
+
+/zed/zed_node/temperature/imu:
+  reliability: reliable
+  history: keep_all
+  depth: 3
+
+/ina220/data:
+  reliability: reliable
+  history: keep_all
+  depth: 3
